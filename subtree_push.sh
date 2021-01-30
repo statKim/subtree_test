@@ -8,6 +8,6 @@ git commit -m "${commit_msg}"
 git push origin source
 
 # commit to master branch(blog)
-git subtree push --prefix=public https://github.com/statKim/statKim.github.io.git master
+git subtree push --prefix=public https://github.com/statKim/subtree_test.git master
 
 echo "Blog update 완료"
